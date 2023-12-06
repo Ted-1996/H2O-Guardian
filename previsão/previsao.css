@@ -1,0 +1,85 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5 url('close-de-um-vidro-molhado-refletindo-o-cenario-da-floresta-chuvosa_181624-23365.jpg') center/cover fixed;  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.page-box {
+     max-width: 800px;
+    margin: 20px auto 0;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between; /* Distribui os itens igualmente na largura do contêiner */
+  background-color: #11111f; /* Cor de fundo do cabeçalho (preto suavizado) */
+  color: white;
+  text-align: center;
+  padding: 10px;
+  }
+
+  #logo {
+  max-width: 70px; /* Ajuste o tamanho conforme necessário */
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-right: 10px; /* Adiciona margem à direita da logo */
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px; /* Ajuste a altura conforme necessário */
+  margin-right: 10px; /* Adiciona um espaçamento à direita da imagem */
+}
+
+.logo h1 {
+  display: inline-block;
+  margin-left: 20px; /* Espaço entre a imagem e o texto */
+  color: #fff;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+}
+
+#country {
+  height: 15px;
+}
